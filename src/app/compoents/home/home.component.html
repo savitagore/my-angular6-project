@@ -12,8 +12,6 @@
         <!-- Nav Items -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0  text-center ">
-
-
             <li class="nav-item">
               <a class="nav-link fw-semibold text-uppercase text-black  me-1" routerLink="#">Home</a>
             </li>
@@ -32,14 +30,9 @@
             <li class="nav-item">
               <a class="nav-link fw-semibold text-uppercase text-black  me-1" routerLink="profile">Profile</a>
             </li>
-
-
-
             <li class="nav-item">
               <a class="nav-link fw-semibold text-uppercase text-black  me-1" routerLink="#">Contact us</a>
             </li>
-
-
           </ul>
         </div>
       </div>
@@ -76,18 +69,13 @@
                   <label class="form-check-label text-light" for="checkbox2">
                     Part Time/Casual/Freelance
                   </label>
-                </div>
-
-                <select class="form-select text-light" aria-label="Default select example">
+                </div><select class="form-select text-light" aria-label="Default select example">
                   <option selected>Select Your Location</option>
                   <option value="1">Pune</option>
                   <option value="2">Mumbai</option>
                   <option value="3">Thane</option>
                 </select>
-
               </div>
-
-
             </div>
           </div>
           <div class="row">
@@ -126,7 +114,6 @@
       </p>
     </div>
   </div>
-
   <div class="row">
     <div class="col-12 text-center p-3">
       <button class="btn btn-outline-info mb-4">FIND OUT MORE ABOUT US</button>
@@ -147,7 +134,6 @@
           <span class="text-light p-2"><i class="fa-regular fa-envelope"></i></span>
         </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -157,7 +143,6 @@
       <div class="d-flex">
         <span class="text-info"><i class="fa-regular fa-envelope fs-4 p-2"></i></span>
         <input type="text" class="form-control bg-white border-0 h-25  rounded-0  text-center">
-
       </div>
     </div>
     <div class="row col-lg-12 col-md-12 col-sm-12 ">
@@ -167,12 +152,8 @@
             <p>Copyright @ 2014 Two Bytes consulting <span class="text-secondary"><b>Terms & Policies</b></span></p>
             <div class="d-flex">
               <button class="btn">Twitter</button>
+              <button class="btn">Twitter</button><button class="btn">Twitter</button>
               <button class="btn">Twitter</button>
-
-              <button class="btn">Twitter</button>
-              <button class="btn">Twitter</button>
-
-
             </div>
           </div>
         </div>
@@ -200,9 +181,8 @@
             <div class="col-lg-4 col-md-12 col-sm-12">
               <div class="bg-secondary p-4">
                 <img [src]="user.profileImage" class="h-50 w-50" alt="">
-                <input type="file" (change)="onFileSelected($event)" class="form-control" accept="image/*">
-
-                <img [src]="imagePath" *ngIf="imagePath" alt="Uploaded Image">
+                <input type="file" (change)="onFileSelected($event)" class="form-control" accept="image/*"><img
+                  [src]="imagePath" *ngIf="imagePath" alt="Uploaded Image">
               </div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12">
@@ -260,7 +240,6 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-12">
                     <div class="slidecontainer mt-3 mb-3">
                       <span class="mx-2">Age</span>
@@ -271,10 +250,8 @@
                       <div *ngIf="age.errors.required">
                         Age is required.
                       </div>
-
                     </div>
                   </div>
-
                   <div class="col-12">
                     <div class="mb-3">
                       <select formControlName="state" class="form-select rounded-0" aria-label="Default select example">
