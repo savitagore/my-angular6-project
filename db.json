@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@example.com",
+      "phoneNumber": "1234567890",
+      "age": 25,
+      "state": "State 1",
+      "country": "Country 1",
+      "addressType": "home",
+      "subscribeToNewsletter": false,
+      "interests": []
+    }
+  ]
+}

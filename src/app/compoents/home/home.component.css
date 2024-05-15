@@ -1,0 +1,124 @@
+.bg-img {
+  background-image: url('/src/assets/img/task.jpg'); /* Replace 'background.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}s
+.form-control {
+  border-radius: 0;
+}
+
+.looking_for_section{
+  margin: 100px 100px;
+}
+.mail-info{
+  height:300px;
+}
+.form-control.text-light::placeholder {
+  color: white;
+}
+
+.blue_line{
+  border-bottom: 4px solid rgba(2, 146, 235, 0.582) ;
+  width: 10%;
+}
+placeholder{
+  font-style: italic;
+}
+
+.footer_color{
+  background-color: rgb(226, 222, 222);
+}
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: 25px;
+  background: grey;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  /* background: #04AA6D; */
+  background: grey;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  /* background: #04AA6D; */
+  background: grey;
+  cursor: pointer;
+}
+
+
+.upload-btn {
+  display: inline-block;
+  /* background-color: #4CAF50; */
+  color: rgb(14, 145, 245);
+  padding: 10px 20px;
+  text-align: center;
+  /* text-decoration: none; */
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+/*
+.upload-btn:hover {
+  background-color: #45a049;
+} */
+
+#file-input {
+  display: none;
+}
+
+
+/* tag */
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.tag {
+  background-color: #7d7d7d;
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+  /* border-radius: 5px; */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  margin-left: 5px;
+}
+.tag span {
+  margin-right: 5px;
+}
+.tag-close {
+  /* font-weight: bold; */
+  color: yellow;
+  padding-left: 20px;
+}
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+::ng-deep .mat-tooltip {
+  font-size: 12px;
+}
